@@ -1,10 +1,42 @@
-*.iml
-.gradle
-/local.properties
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-.DS_Store
-/build
-/captures
+captures
 .externalNativeBuild
+import-summary.txt
+
+#java files
+*.class
+*.dex
+
+#for idea temp file
+*.iws
+*.ipr
+*.iml
+
+#mac temp file
+*.idea/
+__MACOSX
+*.DS_Store
+
+#test android studio module
+*androidTest/
+out
+*.gradle/
+release
+build
+*bin/
+*gen/
+*.classpath
+
+#for eclipse
+.settings/
+local.properties
+
+#temp file
+*.bak
+
+*.pmd
+
+
+
+#python temp file 
+
+*.pydevproject
